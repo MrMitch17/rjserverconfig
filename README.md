@@ -60,7 +60,7 @@ To provision the vagrant server all that is needed is to run
 vagrant up
 ```
 
-It works if "5eb63bbbe01eeed093cb22bb8f5acdc3" is displayed showing that a valid MySQL md5() query has been issued against the server
+Test by going to http://localhost:8080 . It works if "5eb63bbbe01eeed093cb22bb8f5acdc3" is displayed showing that a valid MySQL md5() query has been issued against the server
 
 
 The following ports are mapped to the local machine:
