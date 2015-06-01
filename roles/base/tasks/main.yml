@@ -1,0 +1,12 @@
+---
+- name: Install Base System Packages
+  apt: name={{ item }} update_cache=yes
+  with_items:
+    - apache2
+    - git-core
+    - python-mysqldb
+    - mysql-server
+    - php5
+    - libapache2-mod-php5
+    - php5-mysql
+

@@ -1,0 +1,10 @@
+---
+- name: Base Packages Install
+  hosts: all
+  sudo: true
+  vars:
+    mysqluser: rj
+    mysqlpassword: rj
+  roles:
+    - base
+    - everythingelse
